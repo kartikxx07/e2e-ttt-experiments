@@ -5,8 +5,8 @@ defaults:
 
 deploy_paths:
   data:
-    dclm_filter_8k: ???
-    books3: ???
+    dclm_filter_8k: /content/e2e/dataset.pt
+    books3: 
   checkpoint: ${training.checkpoint_path}
 
 backend:
